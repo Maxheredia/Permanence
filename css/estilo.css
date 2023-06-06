@@ -1,0 +1,311 @@
+.permanence {
+    text-align: center;
+    justify-content: center;
+    font-family:'Helve-Bold', Arial, sans-serif;
+    margin-top: 30px;
+    color: black;
+    font-size: 22px;
+}
+.permanence2 {
+    text-align: center;
+    justify-content: center;
+    font-family:'Helve-Bold', Arial, sans-serif;
+    margin-top: 30px;
+    color: black;
+    font-size: 22px;
+    padding-left: 12px;
+}
+.contenedor1 {
+    position: relative;
+}
+.barra-traslado {
+    list-style-type: none;
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif; 
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+body {
+    margin: 0px;
+}
+
+.titulos-p {
+    display: block;
+}
+.estilo-titulos {
+    text-align: center;
+    font-family:'Helve-Bold', Arial, sans-serif; text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+.item-desktop-first {
+    font-family:'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+.item-desktop {
+    font-family:'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+.desktop-l {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+.bandatop {
+    padding-top: 0px;
+    line-height: 32px;
+    margin-top: 0px;}
+.barra-superior {
+    color: aliceblue;
+    background-color: black;
+ }
+.barra-movimiento {
+    font-family: 'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+
+.container-fluid {
+    background-color: #000;
+}
+.navbar-brand {
+    font-family:'Helve-Bold', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.iconos {
+    float: right;
+     padding-right: 30px;
+     margin-top: 15px;
+    }
+.icon-search-2 {
+    color: black;
+    font-size: 20px;
+}
+.icon-basket-2 {
+    color: black;
+    font-size: 20px;
+}
+.icon-home {
+    color: black;
+    font-size: 20px;
+}
+.ubicaciones {
+    display: flex;
+}
+.ubicacion1 {
+    border-right : solid 50px white;
+    text-align: center; 
+    justify-content: center;
+    margin-left: 120px;
+    font-family:'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+.ubicacion2 {
+    border-left: solid 50px white; 
+    text-align: center; 
+    justify-content: center;
+    font-family:'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+.horarios-tit {
+    display: block;
+}
+.horarios-sub {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: small;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.cont-mail {
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+}
+.subcont-mail {
+    font-family: 'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+}
+.alinear {
+    display: flex; 
+    margin: 20px 15px 40px 15px;
+}
+.email1 {
+    width: 65%;
+    padding: 8px 8px;
+    border: none;
+    background-color: rgb(206, 206, 207); 
+    font-size: 12px;
+}
+.suscrib-e {
+    padding: 8px 8px; 
+    border: none; 
+    background-color: black; 
+    color: white;
+    width: 45%;
+    font-size: 12px;
+}
+.suscrib-e:hover {
+    background-color:white;
+    cursor: pointer;
+    color: black;
+    border: 2px solid ;
+    border-color: black;
+}
+.texto-pf {
+    padding-inline-start: 16px;
+    margin-bottom: 8px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: justify;
+}
+.subtitulos-pf {
+    text-align: center;
+    margin-bottom: 32px; 
+    margin-top: 32px; 
+    font-size: 14PX; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centrar-cc {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.pagos {
+    padding-left: 32px;
+    padding-right: 16px;
+}
+.centrado-texto {
+    margin-bottom: 8px;
+    margin-left: 60px;
+    -family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: center;
+}
+.envios-t {
+    text-align: center;
+    font-family:'Helve-Bold', Arial, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px; 
+    display: block; 
+    font-size:small;
+}
+.envios-seccion {
+    padding-top: 8px; 
+    margin: 0px;
+}
+.listacentrada {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer {
+    width: 100%;background-color: white;
+    font-family: 'Helve-Bold', Arial, sans-serif;
+    font-size: small;
+    color: black;
+}
+.footer-g1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.imagen-footer {
+    justify-content: left;
+    padding-right: 100px;
+}
+.box {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.column-f {
+    display: flex;
+    flex-direction: column;
+}
+.footer-direction {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+.footer-g2 {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 8px; 
+    justify-content: center;
+    display: block;
+}
+.inicio {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.imgs-v {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.img-vertical1 {
+    border: solid 8px;
+    color: white;
+}
+.img-vertical2 {
+    border: solid 8px;
+    color: white;
+}
+.gif-fw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Helve-Bold', Arial, sans-serif;
+    ;font-size: small;
+    margin-bottom: 30px;
+}
+.subtitulo-shop {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Helve-Bold', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 35px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+}
+.productos:hover {
+    cursor: pointer;
+}
+.productos {
+    width: 100%;
+    height: 100&;
+    object-fit:cover;
+}
+.ropa-item {
+    text-align: center;
+    color: black;
+}
+.info {
+    padding-top: 30px;
+    font-family: 'Helve-Regular', Arial, sans-serif;
+    font-size: 14px;
+}
+.info2 {
+    padding-top: 4px;
+    font-family: 'Helve-Regular', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+
