@@ -300,14 +300,14 @@ body {
 .guia-talles {
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
 .fotos-gt {
     width: 500px;
     height: 600px;
     margin: 15px; 
-    border: 3px solid black
+    border: 1px solid black
   }
   
 
@@ -398,7 +398,7 @@ body {
         width: 250px;
         height: 350px;
         margin: 10px; 
-        border: 2px solid black
+        border: 1px solid black
     }
     .texto-pf {
         padding-inline-start: 12px;
@@ -525,10 +525,10 @@ body {
     height: 450px;
 }
 .fotos-gt {
-    width: 150px;
-    height: 250px;
-    margin: 10px; 
-    border: 2px solid black
+    width: 250px;
+    height: 450px;
+    margin: 15px; 
+    border: 1px solid black
   }
   .texto-pf {
     padding-inline-start: 12px;
@@ -590,13 +590,19 @@ body {
     margin-bottom: 30px;
     font-size: 12px;
 }  
+.guia-talles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 @media (max-width:400px) {
     .fotos-gt {
-        width: 130px;
-        height: 230px;
+        width: 230px;
+        height: 350px;
         margin: 8px; 
-        border: 2px solid black
+        border: 1px solid black;
       }
 }
 
