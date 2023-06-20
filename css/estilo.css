@@ -604,5 +604,15 @@ body {
         margin: 8px; 
         border: 1px solid black;
       }
-}
+      .subcont-mail {
+        font-size: xx-small;
+    }
+    .email1 {
+        font-size: xx-small;
+        width: 60%;
 
+    }
+    .email2 {
+        font-size: xx-small;
+}
+}
