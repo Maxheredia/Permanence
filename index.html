@@ -21,10 +21,11 @@
         <span class="barra-movimiento">3 Y 6 CUOTAS SIN INTERÉS</span></strong>
     </marquee>
   </header>
+  
 
   <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <div class="navbar-brand">P™</div>
+      <div class="navbar-brand"></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,25 +64,42 @@
 
     <li class="item-desktop"><a class="desktop-l" href="pages/shop.html">SHOP NOW</a></li>      
     <li class="item-desktop"><a class="desktop-l" href="pages/fall-winter2023.html">FALL / WINTER 2023</a></li>
-    <li class="item-desktop"> <a class="desktop-l" href="pages/preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-    <li class="item-desktop"><a class="desktop-l" href="pages/locales.html">LOCALES</a></li>
+    <div class="dropdown">
+      <li class="item-desktop"><a class="desktop-l" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">INFORMACIÓN GENERAL</a></li>
     
+      <ul class="dropdown-menu">
+        <li class="desktop-nav-item"><a class="subtitulos-ig" href="./pages/preguntas_frecuentes.html">PREGUNTAS FRECUENTES</a></li>
+        <li class="desktop-nav-item"><a class="subtitulos-ig" href="./pages/guía-de-talles.html">GUÍA DE TALLES</a></li>
+      </ul>
+    </div>
+    <li class="item-desktop"><a class="desktop-l" href="index.html">HOME</a></li>
    </ul> 
+   
   </main>
+  <div class="media-container">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./pages/fall-winter2023.html"><img src="./media/balcon.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+      </div>
+      <div class="carousel-item">
+       <a href="./pages/shop.html"><img src="./media/bañadera.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+      </div>
+      <div class="carousel-item">
+       <a href="./pages/shop.html"><img src="./media/tacos.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 
-  <section class="inicio">
-    <div>
-      <a href="./pages/fall-winter2023.html"> <img src="./media/shop-now.jpeg" frameborder="0" width="90%" height="900px" class="imagen-inicio1"></img></a>
-    </div>
-  <div class="imgs-v"> 
-    <div class="img-vertical1">
-        <a href="./pages/shop.html"><img src="./media/moda-mujer.png" alt=""> </a>
-    </div>
-    <div class="img-vertical2">
-        <a href="./pages/shop.html"><img src="./media/moda-hombre2.png"  alt=""></a>
-    </div>
-  </div> 
-  </section>
 
   <div class="cont-mail">
     <div class="subcont-mail">
@@ -106,20 +124,20 @@
             <div class="column-f">
               <p><strong>NOSOTROS</strong></p>
               <a href="./index.html" class="footer-direction">Home</a>
-              <a href="./pages/locales.html" class="footer-direction">Locales</a>
               <a href="./pages/shop.html" class="footer-direction">Shop Now</a>
               <a href="./pages/fall-winter2023.html" class="footer-direction">Fall / Winter 2023</a>
+              <p class="footer-direction">Información General</p>
             </div>
         </div>
         <div class="box">
             <div class="column-f">
               <p>
-                <strong>PREGUNTAS FRECUENTES</strong>
+                <strong>INFORMACIÓN GENERAL</strong>
               </p>
               <a href="./pages/preguntas_frecuentes.html" class="footer-direction">Cómo Comprar</a>
               <a href="./pages/preguntas_frecuentes.html#cambios1" class="footer-direction">Cambios, Devoluciones y Reembolsos</a>
               <a href="./pages/preguntas_frecuentes.html#envios1" class="footer-direction">Envíos</a>
-              <a href="./pages/preguntas_frecuentes.html#empresa1" class="footer-direction">Quienes Somos</a>
+              <a href="./pages/guía-de-talles.html" class="footer-direction">Guía de Talles</a>
             </div>
         </div>
         <div class="box">
