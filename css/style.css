@@ -233,8 +233,7 @@ body {
 }
 
 .imagen-footer {
-  justify-content: left;
-  padding-right: 100px;
+  justify-content: center;
 }
 
 .box {
@@ -347,6 +346,11 @@ body {
   height: 600px;
   margin: 15px;
   border: 1px solid black;
+}
+
+.logo-p {
+  width: 40%;
+  height: 30%;
 }
 
 @media (max-width: 800px) {
@@ -624,6 +628,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .imagen-footer {
+    padding: 0px;
+    justify-content: center;
   }
 }
 @media (max-width: 400px) {
