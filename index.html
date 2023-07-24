@@ -16,12 +16,16 @@
 <body>
 
   <header class="bandatop">
-    <marquee class="barra-superior" behavior="" direction="">
-       <strong><span class="barra-movimiento">ENVÍOS INTERNACIONALES DISPONIBLES</span> 
-        <span class="barra-movimiento">[ENVÍO GRATIS] EN TU PRIMERA COMPRA</span>
-        <span class="barra-movimiento">FALL / WINTER 2023</span>
-        <span class="barra-movimiento">3 Y 6 CUOTAS SIN INTERÉS</span></strong>
-    </marquee>
+    <div class="barra-superior">
+      <strong>
+        <div class="marquee-container">
+          <span class="barra-movimiento">ENVÍOS INTERNACIONALES DISPONIBLES</span>
+          <span class="barra-movimiento">[ENVÍO GRATIS] EN TU PRIMERA COMPRA</span>
+          <span class="barra-movimiento">FALL / WINTER 2023</span>
+          <span class="barra-movimiento">3 Y 6 CUOTAS SIN INTERÉS</span>
+        </div>
+      </strong>
+    </div>
   </header>
   
 
@@ -57,9 +61,9 @@
     </div>
   </nav>
   
- <div class="container">
+ <section class="container">
    <h1 class="permanence"><strong>Permanence™</strong></h1>
- </div>
+ </section>
 
  <main>
    <ul class="barra-traslado">
@@ -82,13 +86,13 @@
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="./pages/fall-winter2023.html"><img src="./media/balcon.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+        <a href="./pages/fall-winter2023.html"><img src="./media/balcon.jpeg" class="d-block w-100 foto-d" height="1100" alt="Imágen primaveral estética"></a>
       </div>
       <div class="carousel-item">
-       <a href="./pages/shop.html"><img src="./media/bañadera.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+       <a href="./pages/shop.html"><img src="./media/bañadera.jpeg" class="d-block w-100 foto-d" height="1100" alt="Imágen estética de mujer"></a>
       </div>
       <div class="carousel-item">
-       <a href="./pages/shop.html"><img src="./media/tacos.jpeg" class="d-block w-100 foto-d" height="1100"></a>
+       <a href="./pages/shop.html"><img src="./media/tacos.jpeg" class="d-block w-100 foto-d" height="1100" alt="Imágen estética de tacos"></a>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -102,8 +106,31 @@
   </div>
 </div>
 
+<section class="container">
+  <h2 class="subtitulos-c"><strong>Productos Destacados</strong></h2>
+</section>
 
-  <div class="cont-mail">
+<div id="productoDestacadoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="./media/camisa-lyke.jpeg" alt="Producto Destacado 1 (Camisa Negra)" class="img-fluid">
+          </div>
+          <div class="col-md-4">
+            <img src="./media/hoodie-gris.jpeg" alt="Producto Destacado 3 (Hoodie Gris)" class="img-fluid">
+          </div>
+          <div class="col-md-4">
+            <img src="./media/camisa-threeofus.jpeg" alt="Producto Destacado 3 (Camisa Blanca)" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="cont-mail">
     <div class="subcont-mail">
         <span>
           <strong>SUSCRIBITE A NUESTRO NEWSLETTER</strong>
@@ -113,16 +140,16 @@
             <input class="email2 suscrib-e" type="submit" value="SUSCRIBIRSE">
         </form>
     </div>
-</div>
+  </section>
 
   <footer class="footer">
-    <div class="footer-g1">
+    <section class="footer-g1">
         <div class="imagen-footer">
             <figure>
-              <img class="logo-p" src="./media/Permanence.png">
+              <img class="logo-p" src="./media/Permanence.png" alt="Logo de Permanence">
             </figure>
         </div>
-        <div class="box">
+        <span class="box">
             <div class="column-f">
               <p><strong>NOSOTROS</strong></p>
               <a href="./index.html" class="footer-direction">Home</a>
@@ -130,8 +157,8 @@
               <a href="./pages/fall-winter2023.html" class="footer-direction">Fall / Winter 2023</a>
               <p class="footer-direction">Información General</p>
             </div>
-        </div>
-        <div class="box">
+          </span>
+        <span class="box">
             <div class="column-f">
               <p>
                 <strong>INFORMACIÓN GENERAL</strong>
@@ -141,8 +168,8 @@
               <a href="./pages/preguntas_frecuentes.html#envios1" class="footer-direction">Envíos</a>
               <a href="./pages/guía-de-talles.html" class="footer-direction">Guía de Talles</a>
             </div>
-        </div>
-        <div class="box">
+        </span>
+        <span class="box">
             <p>
               <strong>FOLLOW US</strong>
             </p>
@@ -150,12 +177,12 @@
               <a href="#" target="_blank" class="footer-direction">TikTok</a>
               <a href="https://instagram.com/permanence.ba?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="footer-direction">Instagram</a>
             </div>
-        </div>
-    </div>
+        </span>
+    </section>
 
-    <div class="footer-g2">
+    <section class="footer-g2">
         <small>Copyright Permanence™ - 2023. Todos los Derechos Reservados.</small>
-    </div>
+    </section>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
